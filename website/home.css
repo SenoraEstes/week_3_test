@@ -1,0 +1,21 @@
+.test {
+    background-color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.row{
+    border: 3px solid green;
+    color: white;
+    background-color: purple;
+}
+
+.col,.col-5,.col-6{
+    border: 5px solid red;
+}
+
+div{
+    border: 2px solid blue;
+}

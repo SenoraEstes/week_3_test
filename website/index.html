@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css libraries go here -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- custom css libraries go here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+<!-- navbar - begin -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- navbar - end -->
+
+<!--Name each page-->
+    <h1>Home</h1>
+    <!--Link to navigate between the pages-->
+    <div class="test">
+        <a href="index.html"><button type="button" class="btn btn-primary">Home</button></a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+<!--Add an image-->
+<!--ALT next to image is a description of the image source just in case the picture doesn't load-->
+    <img height="150px" src="https://t4.ftcdn.net/jpg/05/63/92/85/360_F_563928574_63NIqdW6BWpnUwYkmDbrZDBBiG4JASUD.jpg" alt="Funny baby penguin running on the ice splashing"></a> <br>
+    <div>Here is a picture of a cute penguin I found</div>
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-6">
+            2 of 3 (wider)
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-5">
+            2 of 3 (wider)
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+      </div>
+
+  <!-- js libraries go here -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- custom js libraries go here -->
+
+</body>
+</html>
